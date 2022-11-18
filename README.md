@@ -1,6 +1,6 @@
 # NeedInDeed
 
-This is an eCommerce Spring Boot Website.
+This is an eCommerce Spring Boot Application.
 
 # User side features
 
