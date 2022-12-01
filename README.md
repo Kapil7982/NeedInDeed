@@ -1,6 +1,6 @@
 # NeedInDeed An E-commerce Application Rest Api
 
-This is an E-commerce Spring Boot Application. which is use to buy or sell the products through different buyer and sellers.
+This is an E-commerce Spring Boot Application. which is use to buy or sell the products through different buyer and sellers. We can perfrom all the CRUD operation in this application such as Create, Read, Update and Delete. 
 
 ## This is a Mini project, completed by me with in 2 weeks.
 
