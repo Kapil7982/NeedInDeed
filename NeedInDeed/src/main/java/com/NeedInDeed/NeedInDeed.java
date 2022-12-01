@@ -7,10 +7,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class Shop2HomeApplication {
+public class NeedInDeed {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Shop2HomeApplication.class, args);
+		SpringApplication.run(NeedInDeed.class, args);
 	}
 
 }
