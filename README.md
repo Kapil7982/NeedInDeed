@@ -58,10 +58,10 @@ spring.datasource.password=port
  
 ## Swagger-UI(API's)
 
-![image](https://user-images.githubusercontent.com/103938868/204951549-046f657e-438f-4ac3-9726-c6ba9f54f29b.png)
+![WhatsApp Image 2022-12-01 at 8 16 22 AM](https://user-images.githubusercontent.com/103938868/204954239-3b626ae2-ba46-4d48-b444-55268b8b4cec.jpeg)
 
 ### Admin controller 
-![image](https://user-images.githubusercontent.com/103938868/204951985-536fe478-a726-4200-927d-6d0a58bbb739.png)
+![WhatsApp Image 2022-12-01 at 8 17 02 AM](https://user-images.githubusercontent.com/103938868/204954161-f35e5aa8-88d4-43e3-b6e6-d00de84197d1.jpeg)
 
 ### Customer controller
 ![WhatsApp Image 2022-12-01 at 8 07 17 AM](https://user-images.githubusercontent.com/103938868/204952693-b11c53ca-24db-499f-9f69-2eb4ef0614e9.jpeg)
