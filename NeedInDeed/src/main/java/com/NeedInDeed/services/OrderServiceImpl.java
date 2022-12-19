@@ -45,6 +45,7 @@ public class OrderServiceImpl implements OrderService {
 				Orders order = new Orders();
 				order.setDateAndTime(LocalDateTime.now());
 				order.setProductId(productId);
+				order.setProductName(productName);			
 				order.setQuantity(quantity);
 				order.setSessionId(sessionId);
 				order.setTotalCost(quantity * product.getCost());
