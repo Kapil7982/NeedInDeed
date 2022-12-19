@@ -67,7 +67,7 @@ public class ProductController {
 
 	}
 
-//	getting all products details from database
+
 
 	@GetMapping("/products")
 	public ResponseEntity<List<Product>> getAllProductsHandler() throws ProductNotFoundException {
@@ -77,7 +77,7 @@ public class ProductController {
 		return new ResponseEntity<List<Product>>(products, HttpStatus.OK);
 	}
 
-	// delete existing product by ProductId
+	
 
 	@DeleteMapping("admin/products/{id}/{adminkey}")
 	public ResponseEntity<Product> deleteProductByIdHandler(@PathVariable("id") Integer productId,
@@ -95,7 +95,7 @@ public class ProductController {
 		}
 	}
 
-	// view product by ProductId
+	
 
 	@GetMapping("/products/{id}")
 	public ResponseEntity<Product> viewProductByIdHandler(@PathVariable("id") Integer productId)
@@ -107,7 +107,7 @@ public class ProductController {
 
 	}
 
-	// view Product by Product name
+
 
 	@GetMapping("/product/{name}")
 	public ResponseEntity<List<Product>> viewProductByProductNameHandler(@PathVariable("name") String name)
@@ -119,7 +119,7 @@ public class ProductController {
 
 	}
 
-	// set new Quantity of product
+	
 
 	@PutMapping("admin/setProductQuantity/{id}/{quantity}/{adminkey}")
 	public ResponseEntity<Product> setProductQuantityByProductIdHandler(@PathVariable("adminkey") String key,
@@ -137,7 +137,7 @@ public class ProductController {
 		}
 	}
 
-	// set new Price of product
+
 
 	@PutMapping("admin/setProductPrice/{id}/{price}/{adminkey}")
 	public ResponseEntity<Product> setProductPriceByProductIdHandler(@PathVariable("adminkey") String key,

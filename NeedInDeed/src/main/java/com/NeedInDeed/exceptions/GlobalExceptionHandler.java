@@ -51,9 +51,7 @@ public class GlobalExceptionHandler {
 
 	}
 
-	/////////////////////////////////////////////
-
-	// exceptions for plant module
+	
 
 	@ExceptionHandler(ProductNotFoundException.class)
 	public ResponseEntity<MyErrorDetails> seedNotfoundExceptionHandler(ProductNotFoundException snfe, WebRequest req) {
